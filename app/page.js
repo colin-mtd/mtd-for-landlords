@@ -19,13 +19,18 @@ export default function Home() {
   From just £15 per month
 </p>
 <div className="flex flex-col sm:flex-row gap-4 justify-center">
-  <button className="bg-blue-900 text-white px-8 py-4 rounded-lg font-semibold">
-    Compare Packages
-  </button>
-
-  <button className="border-2 border-blue-900 text-blue-900 px-8 py-4 rounded-lg font-semibold">
-    Register Interest
-  </button>
+<a
+  href="#packages"
+  className="bg-blue-900 text-white px-8 py-4 rounded-lg font-semibold"
+>
+  Compare Packages
+</a>
+<a
+  href="#register-interest"
+  className="border-2 border-blue-900 text-blue-900 px-8 py-4 rounded-lg font-semibold"
+>
+  Register Interest
+</a>
 </div>
       </section>
 <section className="bg-slate-50 py-16">
@@ -68,7 +73,7 @@ export default function Home() {
 
   </div>
 </section>
-<section className="py-16">
+<section id="packages" className="py-16">
   <div className="max-w-6xl mx-auto px-6">
 
     <h2 className="text-3xl font-bold text-center mb-10">
@@ -203,7 +208,7 @@ export default function Home() {
 
   </div>
 </section>
-<section className="bg-slate-50 py-16">
+<section id="register-interest" className="bg-slate-50 py-16">
   <div className="max-w-3xl mx-auto px-6">
 
     <h2 className="text-3xl font-bold text-center mb-4">
@@ -214,16 +219,22 @@ export default function Home() {
       Interested in affordable landlord MTD support? Register your interest below and we'll keep you updated as our service launches.
     </p>
 
-    <form className="space-y-4">
-
+<form
+  action="https://formspree.io/f/xkoawdeb"
+  method="POST"
+  className="space-y-4"
+>
       <input
         type="text"
+        name="name"
         placeholder="Your Name"
         className="w-full border rounded-lg p-4"
+        autoFocus
       />
 
       <input
         type="email"
+        name="email"
         placeholder="Your Email Address"
         className="w-full border rounded-lg p-4"
       />
