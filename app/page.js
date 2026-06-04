@@ -208,6 +208,73 @@ export default function Home() {
 
   </div>
 </section>
+<section className="bg-white py-16">
+  <div className="max-w-4xl mx-auto px-6">
+
+    <h2 className="text-3xl font-bold text-center mb-10">
+      Frequently Asked Questions
+    </h2>
+
+    <div className="space-y-8">
+
+      <div>
+        <h3 className="font-bold text-xl mb-2">
+          Do I need to use Making Tax Digital?
+        </h3>
+        <p className="text-slate-600">
+          From April 2026, many landlords with qualifying income will be required to comply with Making Tax Digital for Income Tax. The rules are being introduced in stages based on income levels.
+        </p>
+      </div>
+
+      <div>
+        <h3 className="font-bold text-xl mb-2">
+          What is Making Tax Digital?
+        </h3>
+        <p className="text-slate-600">
+          Making Tax Digital (MTD) is HMRC's new system that requires digital record keeping and more frequent reporting of income and expenses.
+        </p>
+      </div>
+
+      <div>
+        <h3 className="font-bold text-xl mb-2">
+          Will I need accounting software?
+        </h3>
+        <p className="text-slate-600">
+          Most landlords affected by MTD will need software that is compatible with HMRC's Making Tax Digital requirements. We aim to provide simple and affordable solutions designed specifically for landlords.
+        </p>
+      </div>
+
+      <div>
+        <h3 className="font-bold text-xl mb-2">
+          I only own one rental property. Will MTD apply to me?
+        </h3>
+        <p className="text-slate-600">
+          Potentially, yes. Whether you are affected depends on your qualifying income rather than the number of properties you own.
+        </p>
+      </div>
+
+      <div>
+        <h3 className="font-bold text-xl mb-2">
+          I'm not very confident with technology. Can you help?
+        </h3>
+        <p className="text-slate-600">
+          Absolutely. Our aim is to make Making Tax Digital as straightforward as possible, with support designed for landlords who want a simple, practical solution.
+        </p>
+      </div>
+
+      <div>
+        <h3 className="font-bold text-xl mb-2">
+          How much will your service cost?
+        </h3>
+        <p className="text-slate-600">
+          Our packages are designed to be affordable and transparent, with options to suit different types of landlords. Full details will be available as we approach launch.
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+</section>
 <section id="register-interest" className="bg-slate-50 py-16">
   <div className="max-w-3xl mx-auto px-6">
 
