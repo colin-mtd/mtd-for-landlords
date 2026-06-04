@@ -27,7 +27,7 @@ export default function Home() {
 </a>
 <a
   href="#register-interest"
-  className="border-2 border-blue-900 text-blue-900 px-8 py-4 rounded-lg font-semibold"
+  className="bg-green-600 text-white px-8 py-4 rounded-lg font-semibold"
 >
   Register Interest
 </a>
