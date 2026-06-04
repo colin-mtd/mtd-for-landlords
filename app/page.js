@@ -256,7 +256,16 @@ export default function Home() {
       >
         Register Interest
       </button>
-
+<p className="text-center text-slate-600 mt-6">
+  Prefer to email us directly?
+  <br />
+  <a
+    href="mailto:hello@mtd-for-landlords.co.uk"
+    className="text-blue-900 font-semibold"
+  >
+    hello@mtd-for-landlords.co.uk
+  </a>
+</p>
     </form>
 
   </div>
