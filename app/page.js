@@ -240,9 +240,10 @@ export default function Home() {
       />
 
       <select
+      name="properties"
         className="w-full border rounded-lg p-4"
       >
-        <option>Number of Rental Properties</option>
+        <option value="">Number of Rental Properties</option>
         <option>1 Property</option>
         <option>2-5 Properties</option>
         <option>6-10 Properties</option>
