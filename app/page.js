@@ -208,6 +208,39 @@ export default function Home() {
 
   </div>
 </section>
+<section className="py-12">
+  <div className="max-w-4xl mx-auto px-6">
+
+    <h2 className="text-3xl font-bold text-center mb-8">
+      About Us
+    </h2>
+
+    <div className="text-slate-600 leading-relaxed space-y-4">
+
+      <p>
+        MTD For Landlords was created to help landlords navigate the transition to Making Tax Digital with confidence.
+      </p>
+
+      <p>
+        We understand that many landlords have never needed specialist accounting software or quarterly tax reporting before. Our aim is to make the process as simple, affordable and stress-free as possible.
+      </p>
+
+      <p>
+        The team is led by a fully qualified Chartered Accountant with extensive experience supporting landlords, property investors and small business owners. Since establishing their practice over a decade ago, they have helped clients manage tax obligations, improve record keeping and adapt to changing HMRC requirements.
+      </p>
+
+      <p>
+        Alongside this accounting expertise, the business benefits from more than 30 years of experience building and managing customer-focused businesses across the UK, with a strong emphasis on practical solutions, clear communication and long-term client relationships.
+      </p>
+
+      <p>
+        Whether you own a single rental property or a larger portfolio, our goal is to help you stay compliant without unnecessary complexity.
+      </p>
+
+    </div>
+
+  </div>
+</section>
 <section className="bg-white py-16">
   <div className="max-w-4xl mx-auto px-6">
 
