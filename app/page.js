@@ -88,6 +88,78 @@ export default function Home() {
   </p>
 
 </div>
+<div className="overflow-x-auto mb-16">
+  <table className="w-full border-collapse border border-slate-200">
+
+    <thead>
+      <tr className="bg-slate-100">
+        <th className="border border-slate-200 p-4 text-left">
+          Feature
+        </th>
+        <th className="border border-slate-200 p-4 text-center">
+          Software Alone
+        </th>
+        <th className="border border-slate-200 p-4 text-center bg-green-50">
+          MTD For Landlords
+        </th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td className="border border-slate-200 p-4">
+          HMRC-compliant software
+        </td>
+        <td className="border border-slate-200 p-4 text-center">
+          ✓
+        </td>
+        <td className="border border-slate-200 p-4 text-center bg-green-50">
+          ✓
+        </td>
+      </tr>
+
+      <tr>
+        <td className="border border-slate-200 p-4">
+          Quarterly filing support and submissions
+        </td>
+        <td className="border border-slate-200 p-4 text-center">
+          DIY
+        </td>
+        <td className="border border-slate-200 p-4 text-center bg-green-50">
+          ✓
+        </td>
+      </tr>
+
+      <tr>
+        <td className="border border-slate-200 p-4">
+          Ongoing support and guidance
+        </td>
+        <td className="border border-slate-200 p-4 text-center">
+          ✗
+        </td>
+        <td className="border border-slate-200 p-4 text-center bg-green-50">
+          ✓
+        </td>
+      </tr>
+
+      <tr>
+        <td className="border border-slate-200 p-4">
+          Help when you need it
+        </td>
+        <td className="border border-slate-200 p-4 text-center">
+          ✗
+        </td>
+        <td className="border border-slate-200 p-4 text-center bg-green-50">
+          ✓
+        </td>
+      </tr>
+
+    </tbody>
+
+  </table>
+</div>
+
+
 
 
     <h2 className="text-3xl font-bold text-center mt-8 mb-10">
