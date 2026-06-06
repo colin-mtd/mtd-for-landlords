@@ -106,7 +106,7 @@ export default function Home() {
         </h3>
 
         <p className="text-green-700 font-bold mt-3">
-          From £29/month
+          From £30
         </p>
 
         <p className="font-semibold mt-5">
