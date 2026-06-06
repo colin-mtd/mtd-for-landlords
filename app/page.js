@@ -374,7 +374,7 @@ export default function Home() {
   <div className="max-w-6xl mx-auto px-6 text-center">
 
     <p className="font-semibold">
-      hello@mtd-for-landlords.co.uk
+      info@mtd-for-landlords.co.uk
     </p>
 
     <p className="text-slate-400 mt-3">
@@ -382,9 +382,10 @@ export default function Home() {
     </p>
 
     <p className="text-slate-500 text-sm mt-6">
-      Privacy Policy | Terms & Conditions
-    </p>
-
+  <a href="/privacy-policy" className="hover:text-white">
+    Privacy Policy
+  </a>
+</p>
   </div>
 </footer>
     </main>
