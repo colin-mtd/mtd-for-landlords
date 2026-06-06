@@ -16,7 +16,7 @@ export default function Home() {
           Affordable landlord MTD support that helps take the stress and headaches away.
         </p>
       <p className="text-2xl font-bold text-green-700 mb-8">
-  From just £15 per month
+  From just £20 per month
 </p>
 <div className="flex flex-col sm:flex-row gap-4 justify-center">
 <a
