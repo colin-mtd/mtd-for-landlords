@@ -1,11 +1,11 @@
 export default function Home() {
   return (
     <main className="min-h-screen bg-white">
-      <section className="max-w-6xl mx-auto px-6 py-16 text-center">
+      <section className="max-w-6xl mx-auto px-6 py-7 text-center">
         <img
           src="/logo.png"
           alt="MTD For Landlords"
-          className="mx-auto mb-8 max-w-lg w-full"
+          className="mx-auto mb-4 max-w-xs w-full"
         />
 
         <h1 className="text-5xl font-bold text-slate-900 mb-6">
@@ -88,7 +88,7 @@ export default function Home() {
         </h3>
 
         <p className="text-green-700 font-bold mt-3">
-          From £15/month
+          From £20/month
         </p>
 
         <p className="font-semibold mt-5">
@@ -325,12 +325,12 @@ export default function Home() {
   className="space-y-4"
 >
       <input
-        type="text"
-        name="name"
-        placeholder="Your Name"
-        className="w-full border rounded-lg p-4"
-        autoFocus
-      />
+  type="text"
+  id="name"
+  name="name"
+  placeholder="Your Name"
+  className="w-full border rounded-lg p-4"
+/>
 
       <input
         type="email"
