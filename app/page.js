@@ -73,12 +73,26 @@ export default function Home() {
 
   </div>
 </section>
-<section id="packages" className="py-16">
-  <div className="max-w-6xl mx-auto px-6">
+<section id="packages" className="py-8">
+  <div className="max-w-6xl mx-auto px-7">
+<div className="max-w-3xl mx-auto text-center mb-10">
 
-    <h2 className="text-3xl font-bold text-center mb-10">
-      Our Packages
-    </h2>
+  <h2 className="text-3xl font-bold text-slate-900 mb-4">
+    More than just software.
+  </h2>
+
+  <p className="text-lg text-slate-600 leading-relaxed">
+    We combine HMRC-compliant software with practical support,
+    guidance and solutions, helping landlords navigate Making Tax
+    Digital with confidence.
+  </p>
+
+</div>
+
+
+    <h2 className="text-3xl font-bold text-center mt-8 mb-10">
+  Our Packages
+</h2>
 
     <div className="grid md:grid-cols-3 gap-8">
 
