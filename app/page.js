@@ -241,6 +241,36 @@ export default function Home() {
 
   </div>
 </section>
+<section className="bg-slate-50 py-16">
+  <div className="max-w-4xl mx-auto px-6 text-center">
+
+    <h2 className="text-3xl font-bold text-slate-900 mb-4">
+      For Letting & Estate Agents
+    </h2>
+
+    <p className="text-slate-600 text-lg mb-6">
+      Many landlords will be affected by Making Tax Digital over the
+      coming years.
+    </p>
+
+    <p className="text-slate-600 max-w-3xl mx-auto mb-10">
+      We are currently seeking selected letting and estate agency
+      partners who would like to offer MTD support solutions to their
+      landlords. Potential benefits include recurring commission
+      opportunities, enhanced landlord engagement and a simple way to
+      help clients navigate upcoming HMRC changes.
+    </p>
+
+    <a
+      href="/agents"
+      className="bg-green-600 text-white px-8 py-4 rounded-lg font-semibold inline-block"
+    >
+      Learn More About Agency Partnerships
+    </a>
+
+  </div>
+</section>
+
 <section className="py-16">
   <div className="max-w-6xl mx-auto px-6">
 
