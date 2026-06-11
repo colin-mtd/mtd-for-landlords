@@ -162,7 +162,9 @@ export default function Home() {
 
 
 
-    <h2 className="text-3xl font-bold text-center mt-8 mb-10">
+    <h2 
+     id="packages"
+    className="text-3xl font-bold text-center mt-8 mb-10">
   Our Packages
 </h2>
 
@@ -226,6 +228,29 @@ export default function Home() {
 
   </div>
 </section>
+<section className="py-12 bg-slate-50">
+  <div className="max-w-6xl mx-auto px-6 text-center">
+
+    <h2 className="text-3xl font-bold text-slate-900 mb-4">
+      Landlord Guides
+    </h2>
+
+    <p className="text-lg text-slate-600 max-w-3xl mx-auto mb-6">
+      Practical guides designed to help landlords understand
+      Making Tax Digital, HMRC requirements and what the
+      upcoming changes could mean for them.
+    </p>
+
+    <a
+      href="/guides"
+      className="inline-block bg-green-600 text-white px-6 py-3 rounded-lg font-semibold"
+    >
+      Browse Our Guides
+    </a>
+
+  </div>
+</section>
+
 <section className="bg-blue-900 text-white py-20">
   <div className="max-w-4xl mx-auto px-6 text-center">
 
