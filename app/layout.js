@@ -27,7 +27,6 @@ export const metadata = {
     "landlord compliance",
   ],
 
-
   };
 
 export default function RootLayout({ children }) {
