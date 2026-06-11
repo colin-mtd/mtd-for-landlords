@@ -13,9 +13,22 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "MTD For Landlords | Making Tax Digital Made Simple",
-  description: "Helping landlords stay compliant with Making Tax Digital requirements.",
-};
+  title: "Making Tax Digital For Landlords | HMRC MTD Support & Compliance",
+
+  description:
+    "Helping landlords comply with HMRC Making Tax Digital requirements. MTD registration, quarterly submissions, practical support and affordable solutions designed specifically for landlords.",
+ keywords: [
+    "Making Tax Digital for landlords",
+    "MTD for landlords",
+    "HMRC MTD",
+    "landlord tax reporting",
+    "quarterly submissions",
+    "MTD registration",
+    "landlord compliance",
+  ],
+
+
+  };
 
 export default function RootLayout({ children }) {
   return (
