@@ -1,3 +1,4 @@
+import { MTD_THRESHOLDS } from "./data/mtdThresholds";
 export default function Home() {
   return (
     <main className="min-h-screen bg-white">
@@ -42,32 +43,20 @@ export default function Home() {
 
     <div className="grid md:grid-cols-3 gap-6">
 
-      <div className="bg-white rounded-xl shadow-sm border p-8 text-center">
-        <h3 className="text-2xl font-bold text-blue-900 mb-3">
-          April 2026
-        </h3>
-        <p className="text-slate-700">
-          Rental income over £50,000
-        </p>
-      </div>
+      {MTD_THRESHOLDS.map((item) => (
+  <div
+    key={item.year}
+    className="bg-white rounded-xl shadow-sm border p-8 text-center"
+  >
+    <h3 className="text-2xl font-bold text-blue-900 mb-3">
+      {item.year}
+    </h3>
 
-      <div className="bg-white rounded-xl shadow-sm border p-8 text-center">
-        <h3 className="text-2xl font-bold text-blue-900 mb-3">
-          April 2027
-        </h3>
-        <p className="text-slate-700">
-          Rental income over £30,000
-        </p>
-      </div>
-
-      <div className="bg-white rounded-xl shadow-sm border p-8 text-center">
-        <h3 className="text-2xl font-bold text-blue-900 mb-3">
-          April 2028
-        </h3>
-        <p className="text-slate-700">
-          Rental income over £20,000
-        </p>
-      </div>
+    <p className="text-slate-700">
+      {item.description}
+    </p>
+  </div>
+))}
 
     </div>
 

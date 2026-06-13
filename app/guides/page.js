@@ -28,6 +28,25 @@ export default function Guides() {
           Read Guide →
         </Link>
       </div>
+<div className="border rounded-xl p-6 mt-6">
+  <h2 className="text-2xl font-semibold mb-3">
+    MTD Threshold For Landlords
+  </h2>
+
+  <p className="text-slate-600 mb-4">
+    Learn how the Making Tax Digital income thresholds work,
+    what qualifying income means and whether MTD is likely
+    to apply to you.
+  </p>
+
+  <a
+    href="/guides/mtd-threshold-for-landlords"
+    className="text-green-600 font-semibold"
+  >
+    Read Guide →
+  </a>
+</div>
+
       <div className="mt-12 text-center">
   <a
     href="/"
