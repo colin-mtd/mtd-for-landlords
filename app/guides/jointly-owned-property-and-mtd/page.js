@@ -2,12 +2,23 @@ export default function GuidePage() {
   return (
     <main className="max-w-4xl mx-auto px-6 py-16">
 
-      <a
-        href="/guides"
-        className="text-green-600 font-semibold inline-block mb-6"
-      >
-        ← Back To Landlord Guides
-      </a>
+     <div className="mb-6">
+  <a
+    href="/guides/mtd-faq-for-landlords"
+    className="text-green-600 font-semibold"
+  >
+    ← Back To MTD FAQ
+  </a>
+
+  <span className="mx-3 text-slate-400">|</span>
+
+  <a
+    href="/guides"
+    className="text-green-600 font-semibold"
+  >
+    ← Back To Landlord Guides
+  </a>
+</div>
 
       <h1 className="text-5xl font-bold text-slate-900 mb-8">
         Jointly Owned Property & Making Tax Digital

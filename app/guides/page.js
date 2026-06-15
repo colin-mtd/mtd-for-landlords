@@ -63,7 +63,23 @@ export default function Guides() {
     Read Guide →
   </a>
 </div>
+<div className="border rounded-xl p-6 mt-6">
+  <h2 className="text-2xl font-semibold mb-3">
+    MTD FAQ For Landlords
+  </h2>
 
+  <p className="text-slate-600 mb-4">
+    Answers to some of the most common questions landlords ask about
+    Making Tax Digital, software, quarterly updates and compliance.
+  </p>
+
+  <a
+    href="/guides/mtd-faq-for-landlords"
+    className="text-green-600 font-semibold"
+  >
+    Read Guide →
+  </a>
+</div>
       <div className="mt-12 text-center">
   <a
     href="/"
