@@ -80,6 +80,24 @@ export default function Guides() {
     Read Guide →
   </a>
 </div>
+<div className="border rounded-xl p-6 mt-6">
+  <h2 className="text-2xl font-semibold mb-3">
+    Landlord Compliance Checklist (UK)
+  </h2>
+
+  <p className="text-slate-600 mb-4">
+    A practical guide covering key legal, safety and tax responsibilities to
+    help landlords stay organised, compliant and prepared for Making Tax
+    Digital.
+  </p>
+
+  <a
+    href="/guides/landlord-compliance-checklist"
+    className="text-green-600 font-semibold"
+  >
+    Read Guide →
+  </a>
+</div>
       <div className="mt-12 text-center">
   <a
     href="/"
@@ -87,6 +105,8 @@ export default function Guides() {
   >
     ← Back To Homepage
   </a>
+
+  
 </div>
     </main>
     
